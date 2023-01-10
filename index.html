@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6e5e4ad450.js" crossorigin="anonymous"></script>
+
+  <title>Royal house</title>
+</head>
+<body>
+    <main class="main-container">
+        <header>
+            <div class="menu__blue">
+                <p class="menu__blue-text">1441 Market St, San Francisco</p>
+                <p class="menu__blue-text">(123)456 7890</p>
+                <p class="menu__blue-text">Mon Sun: 8:00am - 6:00am</p>
+                
+                <img src="./imagenes/Left Border.png" alt="borde">
+                <img class="menu__blue-img" src="./imagenes/facebook.svg" alt="facebook">
+
+                <img src="./imagenes/Left Border.png" alt="borde">
+                <img class="menu__blue-img" src="./imagenes/twitter.svg" alt="twitter">
+
+                <img src="./imagenes/Left Border.png" alt="borde">
+                <img class="menu__blue-img" src="./imagenes/instagram.svg" alt="instagram">
+
+                 <img src="./imagenes/Left Border.png" alt="borde">
+                <img class="menu__blue-img" src="./imagenes/youtube.svg" alt="youtube">
+                <img src="./imagenes/Left Border.png" alt="borde">
+
+                <a id="menu__blue-registrer"class="menu__blue-user" href="#">Loading/registrer</a>
+                <img class="menu__blue-user"src="./imagenes/user-plus.svg" alt="user">
+            </div>
+            <div class="nav-bar__white">
+                <img src="./imagenes/Logo.png" alt="logo">
+               <ul class="nav-bar-white-links__container">
+                <li><a href="#image__section" class="nav-bar__white-links">Homepage</a></li>
+                <li><a href="#card__section" class="nav-bar__white-links">properties</a></li>
+                <li><a href="#hot-deal__section" class="nav-bar__white-links">agencies</a></li>
+                <li><a href="#our-angents__section" class="nav-bar__white-links">pages</a></li>
+               </ul>
+               <a id="nav-bar__white-favorites" href="#">Favorites⭐</a>
+               <input type="checkbox" id="check">
+              <label for="check" class="checkbtn">
+                <img id="icon__check" src="./imagenes/menu.png" alt="icon">
+              </label>
+
+            </div>
+        </header>
+        <section class="image__section" id="image__section">
+            <h1 id="image__section-title">Lets Us Guide You Home</h1>
+                <h5 id="image__section-text" >Find the house of your dreams</h5>
+
+                <!-- <img id="image__section-img" src="./imagenes/hero-bg-image.png" alt="backgroung-img"> -->
+
+            <div class="image__section-var">
+
+                <select class="image__section-select" name="type">
+
+                    <option selected disabled>Select Type</option>
+                    <option>House</option>
+                    <option>Apartment</option>
+                    <option>Estate</option>
+                    
+                </select>
+
+                    <select class="image__section-select" name="status">
+
+                        <option selected disabled>Select Status</option>
+                        <option>For sale</option>
+                        <option>For lease</option>
+                        
+                    </select>
+
+                <input id="image__section-input" type="text" placeholder="Search for properties, suburbs or keywords">
+                <button id="image__section-button" type="button">FIND PROPERTIES</button>
+               
+            </div>
+        </section>
+        
+    </main>
+    <section class="card__section" id="card__section">
+            <div class="section-text">
+                <span id="royal__text">CASA ROYAL REAL ESTATE AGENCY</span>
+                <p id="title__section"><b>Features </b>Properties</p>
+            </div>
+
+            <section class="cards__one">
+                <div class="card__section-cards">
+                    <section class="card__section-img1">
+                        <div class="card__clasification">
+                            <span id="card__clasification-house">House</span>
+                            <span id="card__clasification-sale">For sale</span>
+                            <buttom id="favorites" type="buttom">⭐</buttom>
+                        </div>
+                        <span id="price"><b>$320,000.00</b></span>
+                    </section>
+                    <section class="card__section-white">
+                        <span id="card__white-location">Beverly hills, CA</span>
+                        <p id="card__white-information">272 Rexrford Dr, Beverly hills, C <br> 90212, USA</p>
+                       <div class="card__agent">
+                        <img id="card__agent-img" src="./imagenes/Cards/agent-1-3-60x60.png" alt="Agent">
+                        <a id="card__agent-name" href="#">Hellen Mattis</a>
+                        <span id="card__agent-date">4 months ago</span>
+                       </div>
+                       <div class="card__footer">
+                        <div class="card__footer-area">
+                            <img src="./imagenes/Cards/Area Icon.png" alt="area-logo">
+                            <span><b>2400 </b>sq Ft</span>
+                        </div>
+                        <div class="card__footer-icons">
+                            <img src="./imagenes/Cards/Garage Icon.png" alt="car" class="card__footer-logo">
+                        <span><b>2</b></span>
+                        <img src="./imagenes/Cards/Bathroom Icon.png" alt="bath" class="card__footer-logo">
+                        <span><b>3</b></span>
+                        <img src="./imagenes/Cards/Bedroom Icon.png" alt="bed" class="card__footer-logo">
+                        <span><b>3</b></span>
+                        </div>
+                    </section>
+                       </div>
+
+                       <div class="card__section-cards">
+                        <section class="card__section-img2">
+                            <div class="card__clasification">
+                                <span id="card__clasification-house">Estate</span>
+                                <span id="card__clasification-sale">For lease</span>
+                                <buttom id="favorites" type="buttom">⭐</buttom>
+                            </div>
+                            <span id="price"><b>$480,000.00</b></span>
+                        </section>
+                        <section class="card__section-white">
+                            <span id="card__white-location">Chicago</span>
+                            <p id="card__white-information">272 Rexrford Dr, Beverly hills, C <br> 90212, USA</p>
+                           <div class="card__agent">
+                            <img id="card__agent-img" src="./imagenes/Cards/agent-1-3-60x60.png" alt="Agent">
+                            <a id="card__agent-name" href="#">Hellen Mattis</a>
+                            <span id="card__agent-date">4 months ago</span>
+                           </div>
+                           <div class="card__footer">
+                            <div class="card__footer-area">
+                                <img src="./imagenes/Cards/Area Icon.png" alt="area-logo">
+                                <span><b>2400 </b>sq Ft</span>
+                            </div>
+                            <div class="card__footer-icons">
+                                <img src="./imagenes/Cards/Garage Icon.png" alt="car" class="card__footer-logo">
+                            <span><b>2</b></span>
+                            <img src="./imagenes/Cards/Bathroom Icon.png" alt="bath" class="card__footer-logo">
+                            <span><b>3</b></span>
+                            <img src="./imagenes/Cards/Bedroom Icon.png" alt="bed" class="card__footer-logo">
+                            <span><b>3</b></span>
+                            </div>
+                        </section>
+                           </div>
+
+                           <div class="card__section-cards">
+                            <section class="card__section-img3">
+                                <div class="card__clasification">
+                                    <span id="card__clasification-house">House</span>
+                                    <span id="card__clasification-sale">For sale</span>
+                                    <buttom id="favorites" type="buttom">⭐</buttom>
+                                </div>
+                                <span id="price"><b>$320,000.00</b></span>
+                            </section>
+                            <section class="card__section-white">
+                                <span id="card__white-location">Beverly hills, CA</span>
+                                <p id="card__white-information">272 Rexrford Dr, Beverly hills, C <br> 90212, USA</p>
+                               <div class="card__agent">
+                                <img id="card__agent-img" src="./imagenes/Cards/agent-1-3-60x60.png" alt="Agent">
+                                <a id="card__agent-name" href="#">Hellen Mattis</a>
+                                <span id="card__agent-date">4 months ago</span>
+                               </div>
+                               <div class="card__footer">
+                                <div class="card__footer-area">
+                                    <img src="./imagenes/Cards/Area Icon.png" alt="area-logo">
+                                    <span><b>2400 </b>sq Ft</span>
+                                </div>
+                                <div class="card__footer-icons">
+                                    <img src="./imagenes/Cards/Garage Icon.png" alt="car" class="card__footer-logo">
+                                <span><b>2</b></span>
+                                <img src="./imagenes/Cards/Bathroom Icon.png" alt="bath" class="card__footer-logo">
+                                <span><b>3</b></span>
+                                <img src="./imagenes/Cards/Bedroom Icon.png" alt="bed" class="card__footer-logo">
+                                <span><b>3</b></span>
+                                </div>
+                            </section>
+                               </div>
+
+            </section>
+
+            <section class="cards__two">
+                <div class="card__section-cards">
+                    <section class="card__section-img4">
+                        <div class="card__clasification">
+                            <span id="card__clasification-house">House</span>
+                            <span id="card__clasification-sale">For sale</span>
+                            <buttom id="favorites" type="buttom">⭐</buttom>
+                        </div>
+                        <span id="price"><b>$320,000.00</b></span>
+                    </section>
+                    <section class="card__section-white">
+                        <span id="card__white-location">Beverly hills, CA</span>
+                        <p id="card__white-information">272 Rexrford Dr, Beverly hills, C <br> 90212, USA</p>
+                       <div class="card__agent">
+                        <img id="card__agent-img" src="./imagenes/Cards/agent-1-3-60x60.png" alt="Agent">
+                        <a id="card__agent-name" href="#">Hellen Mattis</a>
+                        <span id="card__agent-date">4 months ago</span>
+                       </div>
+                       <div class="card__footer">
+                        <div class="card__footer-area">
+                            <img src="./imagenes/Cards/Area Icon.png" alt="area-logo">
+                            <span><b>2400 </b>sq Ft</span>
+                        </div>
+                        <div class="card__footer-icons">
+                            <img src="./imagenes/Cards/Garage Icon.png" alt="car" class="card__footer-logo">
+                        <span><b>2</b></span>
+                        <img src="./imagenes/Cards/Bathroom Icon.png" alt="bath" class="card__footer-logo">
+                        <span><b>3</b></span>
+                        <img src="./imagenes/Cards/Bedroom Icon.png" alt="bed" class="card__footer-logo">
+                        <span><b>3</b></span>
+                        </div>
+                    </section>
+                       </div>
+
+                       <div class="card__section-cards">
+                        <section class="card__section-img5">
+                            <div class="card__clasification">
+                                <span id="card__clasification-house">House</span>
+                                <span id="card__clasification-sale">For sale</span>
+                                <buttom id="favorites" type="buttom">⭐</buttom>
+                            </div>
+                            <span id="price"><b>$320,000.00</b></span>
+                        </section>
+                        <section class="card__section-white">
+                            <span id="card__white-location">Beverly hills, CA</span>
+                            <p id="card__white-information">272 Rexrford Dr, Beverly hills, C <br> 90212, USA</p>
+                           <div class="card__agent">
+                            <img id="card__agent-img" src="./imagenes/Cards/agent-1-3-60x60.png" alt="Agent">
+                            <a id="card__agent-name" href="#">Hellen Mattis</a>
+                            <span id="card__agent-date">4 months ago</span>
+                           </div>
+                           <div class="card__footer">
+                            <div class="card__footer-area">
+                                <img src="./imagenes/Cards/Area Icon.png" alt="area-logo">
+                                <span><b>2400 </b>sq Ft</span>
+                            </div>
+                            <div class="card__footer-icons">
+                                <img src="./imagenes/Cards/Garage Icon.png" alt="car" class="card__footer-logo">
+                            <span><b>2</b></span>
+                            <img src="./imagenes/Cards/Bathroom Icon.png" alt="bath" class="card__footer-logo">
+                            <span><b>3</b></span>
+                            <img src="./imagenes/Cards/Bedroom Icon.png" alt="bed" class="card__footer-logo">
+                            <span><b>3</b></span>
+                            </div>
+                        </section>
+                           </div>
+
+                           <div class="card__section-cards">
+                            <section class="card__section-img6">
+                                <div class="card__clasification">
+                                    <span id="card__clasification-house">House</span>
+                                    <span id="card__clasification-sale">For sale</span>
+                                    <buttom id="favorites" type="buttom">⭐</buttom>
+                                </div>
+                                <span id="price"><b>$320,000.00</b></span>
+                            </section>
+                            <section class="card__section-white">
+                                <span id="card__white-location">Beverly hills, CA</span>
+                                <p id="card__white-information">272 Rexrford Dr, Beverly hills, C <br> 90212, USA</p>
+                               <div class="card__agent">
+                                <img id="card__agent-img" src="./imagenes/Cards/agent-1-3-60x60.png" alt="Agent">
+                                <a id="card__agent-name" href="#">Hellen Mattis</a>
+                                <span id="card__agent-date">4 months ago</span>
+                               </div>
+                               <div class="card__footer">
+                                <div class="card__footer-area">
+                                    <img src="./imagenes/Cards/Area Icon.png" alt="area-logo">
+                                    <span><b>2400 </b>sq Ft</span>
+                                </div>
+                                <div class="card__footer-icons">
+                                    <img src="./imagenes/Cards/Garage Icon.png" alt="car" class="card__footer-logo">
+                                <span><b>2</b></span>
+                                <img src="./imagenes/Cards/Bathroom Icon.png" alt="bath" class="card__footer-logo">
+                                <span><b>3</b></span>
+                                <img src="./imagenes/Cards/Bedroom Icon.png" alt="bed" class="card__footer-logo">
+                                <span><b>3</b></span>
+                                </div>
+                            </section>
+                               </div>
+
+            </section>
+    </section>
+
+    <section class="hot-deal__section" id="hot-deal__section">
+        <div class="section-text">
+            <span id="royal__text">CASA ROYAL REAL ESTATE AGENCY</span>
+            <p id="title__section"><b>Hot </b>Deal</p>
+        </div>
+
+        <div class="hot-deal__section-main">
+            <div class="section-main__img">
+                <!-- <img src="./imagenes/isaac-benhesed-249429-unsplash-1.png" alt="property"> -->
+                <span id="section-main__text"><b>Photos (4)</b></span>
+            </div>
+            <div class="section-main__information">
+                <span class="section-main-span">Residential Towe For Rent</span>
+                <p><b>15 Apartments of Type B</b></p>
+                <span class="section-main-span" >Los Angeles, CA</span>
+                <span id="section-main-price">From <b>$1,700.00</b> per month</span>
+                <img src="./imagenes/Oval.png" alt="ovalo">
+                <div class="section-main__information-icons">
+                    <img class="section-main-icons" src="./imagenes/Area Size.png" alt="area">
+                    <img class="section-main-icons"  src="./imagenes/Beds.png" alt="bed">
+                    <img class="section-main-icons"  src="./imagenes/Baths.png" alt="bath">
+                    <img class="section-main-icons"  src="./imagenes/Garage.png" alt="garage">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="location__section">
+        <div class="section-text">
+            <span id="royal__text">CASA ROYAL REAL ESTATE AGENCY</span>
+            <p id="title__section"><b>Properties </b>by Area</p>
+        </div>
+        <div class="location__section-container">
+            <div class="section__container-items-uno">
+                <img id="section__container-items" src="./imagenes/Area Block 1.png" alt="los Angeles">
+                <img id="section__container-items3" src="./imagenes/Area Block 3.png" alt="Seattle">
+                
+            </div>
+            <div class="section__container-items-dos">
+                <img id="section__container-items2" src="./imagenes/Area Block 2.png" alt="San Francisco">
+                <img id="section__container-items4" src="./imagenes/Area Block 4.png" alt="San Diego">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="our-angents__section" id="our-angents__section">
+        <div class="section-text">
+            <span id="royal__text">CASA ROYAL REAL ESTATE AGENCY</span>
+            <p id="title__section"><b>Our </b>Agents</p>
+        </div>
+        <div class="agents-cards__container">
+            <div class="agents-cards">
+                <img src="./imagenes/Agent Image.png" alt="Agent">
+                <span class="agents-card-first">Real State Broker</span>
+                <p class="agents-card-name">JHON DOE</p>
+                <p class="agents-card__num-email">123 456 7890</p>
+                <p class="agents-card__num-email">agent@gmail.com</p>
+            </div>
+            <div class="agents-cards">
+                <img src="./imagenes/Agent Image (1).png" alt="Agent">
+                <p class="agents-card-first">Real State Broker</p>
+                <p class="agents-card-name">JHON DOE</p>
+                <p class="agents-card__num-email">123 456 7890</p>
+                <p class="agents-card__num-email">agent@gmail.com</p>
+            </div>
+            <div class="agents-cards">
+                <img src="./imagenes/Agent Image (2).png" alt="Agent">
+                <p class="agents-card-first">Real State Broker</p>
+                <p class="agents-card-name">JHON DOE</p>
+                <p class="agents-card__num-email">123 456 7890</p>
+                <p class="agents-card__num-email">agent@gmail.com</p>
+            </div>
+        </div>
+
+    </section>
+   
+    <footer class="footer">
+        <img src="./imagenes/Logo (1).png" alt="logo">
+        <p>Proudly powered by WordPress and casaRoyal by FantasyTheme</p>
+        <p>Privacy Policy    Terms and Conditions    Contact Us</p>
+        
+    </footer>
+    
+</body>
+</html>
